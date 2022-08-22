@@ -18,3 +18,7 @@ func _ready():
 
 func _on_Enter_the_battlefield__pressed():
 	pass # Replace with function body.
+
+
+func _on_Play_pressed():
+	pass # Replace with function body.

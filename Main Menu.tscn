@@ -4,10 +4,10 @@
 
 [node name="Main Menu" type="Node2D"]
 
-[node name="Enter the battlefield " type="Button" parent="."]
+[node name="Play" type="Button" parent="."]
 margin_right = 12.0
 margin_bottom = 20.0
-text = "plAY"
+text = "Enter The Battlefield"
 script = ExtResource( 1 )
 
-[connection signal="pressed" from="Enter the battlefield " to="Enter the battlefield " method="_on_Enter_the_battlefield__pressed"]
+[connection signal="pressed" from="Play" to="Play" method="_on_Play_pressed"]
