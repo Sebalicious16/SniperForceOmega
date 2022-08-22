@@ -5,9 +5,12 @@
 [node name="Main Menu" type="Node2D"]
 
 [node name="Play" type="Button" parent="."]
-margin_right = 12.0
-margin_bottom = 20.0
+margin_left = 21.0
+margin_top = 26.0
+margin_right = 194.0
+margin_bottom = 73.0
 text = "Enter The Battlefield"
 script = ExtResource( 1 )
+scene_to_load = "res://Main Menu.tscn"
 
 [connection signal="pressed" from="Play" to="Play" method="_on_Play_pressed"]
