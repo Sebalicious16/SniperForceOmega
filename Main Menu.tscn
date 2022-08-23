@@ -11,6 +11,6 @@ margin_right = 194.0
 margin_bottom = 73.0
 text = "Enter The Battlefield"
 script = ExtResource( 1 )
-scene_to_load = "res://Main Menu.tscn"
+scene_to_load = "res://SniperForceOmega.tscn"
 
 [connection signal="pressed" from="Play" to="Play" method="_on_Play_pressed"]
