@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Textures/34ceeaae28e41eee53d68b91e72d5c55.jpg" type="Texture" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Modles/Cottage_FREE.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Cottage.tscn" type="PackedScene" id=3]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 20, 20 )
@@ -32,5 +32,5 @@ shadow_enabled = true
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 
-[node name="Cottage_FREE" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1.99974, 0, -0.0321825, 0, 2, 0, 0.0321825, 0, 1.99974, -0.151146, -0.026363, 12.8644 )
+[node name="Cottage_FREE2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1.04007, 0, 0, 0, 1.53396, 0, 0, 0, 2.03061, 11.3789, 3.56421, -34.0508 )
