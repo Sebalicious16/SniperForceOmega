@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Cottage_Dirt_Base_Color.png-5367a423840f098d3b6cc4e2ba3acfd3.s3tc.stex"
-path.etc2="res://.import/Cottage_Dirt_Base_Color.png-5367a423840f098d3b6cc4e2ba3acfd3.etc2.stex"
+path.s3tc="res://.import/download.jpeg-ebda9498b44e9a0be699be40870209e7.s3tc.stex"
+path.etc2="res://.import/download.jpeg-ebda9498b44e9a0be699be40870209e7.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Modles/Cottage_Dirt/Cottage_Dirt_Base_Color.png"
-dest_files=[ "res://.import/Cottage_Dirt_Base_Color.png-5367a423840f098d3b6cc4e2ba3acfd3.s3tc.stex", "res://.import/Cottage_Dirt_Base_Color.png-5367a423840f098d3b6cc4e2ba3acfd3.etc2.stex" ]
+source_file="res://Textures/download.jpeg"
+dest_files=[ "res://.import/download.jpeg-ebda9498b44e9a0be699be40870209e7.s3tc.stex", "res://.import/download.jpeg-ebda9498b44e9a0be699be40870209e7.etc2.stex" ]
 
 [params]
 

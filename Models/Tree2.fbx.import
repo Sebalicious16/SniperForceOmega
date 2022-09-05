@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Cottage_FREE.fbx-b6e8b214f8339d70c62385b53d70e2da.scn"
+path="res://.import/Tree2.fbx-64f4f4d75cec750df95f7dcc7a0fe79a.scn"
 
 [deps]
 
-source_file="res://Modles/Cottage_FREE.fbx"
-dest_files=[ "res://.import/Cottage_FREE.fbx-b6e8b214f8339d70c62385b53d70e2da.scn" ]
+source_file="res://Models/Tree2.fbx"
+dest_files=[ "res://.import/Tree2.fbx-64f4f4d75cec750df95f7dcc7a0fe79a.scn" ]
 
 [params]
 

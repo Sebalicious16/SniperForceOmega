@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cottage_Dirt_Roughness.png-5d850ebae60ffe32e6becfc27afa2b73.stex"
+path="res://.import/Cottage_Dirt_Roughness.png-1629103069e748eca58c580a55b571f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Modles/Cottage_Dirt/Cottage_Dirt_Roughness.png"
-dest_files=[ "res://.import/Cottage_Dirt_Roughness.png-5d850ebae60ffe32e6becfc27afa2b73.stex" ]
+source_file="res://Models/Cottage_Dirt/Cottage_Dirt_Roughness.png"
+dest_files=[ "res://.import/Cottage_Dirt_Roughness.png-1629103069e748eca58c580a55b571f9.stex" ]
 
 [params]
 

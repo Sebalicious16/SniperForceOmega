@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cottage_Dirt_Metallic.png-3bbf03e0c8a8f1db092011ef3883a3fd.stex"
+path="res://.import/Cottage_Dirt_Opacity.png-4b833cb6a53fc7316be78a43a8414e14.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Modles/Cottage_Dirt/Cottage_Dirt_Metallic.png"
-dest_files=[ "res://.import/Cottage_Dirt_Metallic.png-3bbf03e0c8a8f1db092011ef3883a3fd.stex" ]
+source_file="res://Models/Cottage_Dirt/Cottage_Dirt_Opacity.png"
+dest_files=[ "res://.import/Cottage_Dirt_Opacity.png-4b833cb6a53fc7316be78a43a8414e14.stex" ]
 
 [params]
 
