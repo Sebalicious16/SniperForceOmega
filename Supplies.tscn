@@ -1,0 +1,49 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Models/Supplies.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Textures/istockphoto-656588156-612x612.jpg" type="Texture" id=2]
+[ext_resource path="res://Models/Supplies.FBX" type="PackedScene" id=4]
+[ext_resource path="res://Textures/photo-1619976553860-b7ffbe9a093b.jpeg" type="Texture" id=6]
+[ext_resource path="res://Textures/texture.jpg" type="Texture" id=7]
+
+[sub_resource type="SpatialMaterial" id=10]
+albedo_texture = ExtResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=9]
+albedo_texture = ExtResource( 6 )
+
+[sub_resource type="SpatialMaterial" id=13]
+albedo_texture = ExtResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=14]
+albedo_texture = ExtResource( 6 )
+
+[sub_resource type="SpatialMaterial" id=15]
+albedo_texture = ExtResource( 6 )
+
+[sub_resource type="SpatialMaterial" id=12]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=7]
+albedo_texture = ExtResource( 6 )
+
+[sub_resource type="BoxShape" id=16]
+extents = Vector3( 14.8935, 40.9919, 11.1584 )
+
+[node name="Supplies" instance=ExtResource( 4 )]
+
+[node name="Supplies" type="MeshInstance" parent="." index="0"]
+transform = Transform( 1, 0, 0, 0, 1.07266, 0, 0, 0, 1, -28.1548, -5.74779, 21.3047 )
+mesh = ExtResource( 1 )
+material/0 = SubResource( 10 )
+material/1 = SubResource( 9 )
+material/2 = SubResource( 13 )
+material/3 = SubResource( 14 )
+material/4 = SubResource( 15 )
+material/5 = SubResource( 12 )
+material/6 = SubResource( 7 )
+
+[node name="StaticBody" type="StaticBody" parent="Supplies" index="0"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Supplies/StaticBody" index="0"]
+shape = SubResource( 16 )
