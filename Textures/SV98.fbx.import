@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/wooden watch tower2.fbx-3ad850f6fcf0e8492d9f2386df10828c.scn"
+path="res://.import/SV98.fbx-40fd6cfcc7ac8f358061f88037c5483c.scn"
 
 [deps]
 
-source_file="res://wooden watch tower2.fbx"
-dest_files=[ "res://.import/wooden watch tower2.fbx-3ad850f6fcf0e8492d9f2386df10828c.scn" ]
+source_file="res://Textures/SV98.fbx"
+dest_files=[ "res://.import/SV98.fbx-40fd6cfcc7ac8f358061f88037c5483c.scn" ]
 
 [params]
 

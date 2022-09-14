@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/wood.jpg-87b2c68642cd361908d6beef9ec6acee.s3tc.stex"
-path.etc2="res://.import/wood.jpg-87b2c68642cd361908d6beef9ec6acee.etc2.stex"
+path.s3tc="res://.import/istockphoto-656588156-612x612 (1).jpg-084c383b692e42d9e39585eeaa2408a9.s3tc.stex"
+path.etc2="res://.import/istockphoto-656588156-612x612 (1).jpg-084c383b692e42d9e39585eeaa2408a9.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Texture/wood.jpg"
-dest_files=[ "res://.import/wood.jpg-87b2c68642cd361908d6beef9ec6acee.s3tc.stex", "res://.import/wood.jpg-87b2c68642cd361908d6beef9ec6acee.etc2.stex" ]
+source_file="res://Models/Texture/istockphoto-656588156-612x612 (1).jpg"
+dest_files=[ "res://.import/istockphoto-656588156-612x612 (1).jpg-084c383b692e42d9e39585eeaa2408a9.s3tc.stex", "res://.import/istockphoto-656588156-612x612 (1).jpg-084c383b692e42d9e39585eeaa2408a9.etc2.stex" ]
 
 [params]
 

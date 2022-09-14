@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Textures/34ceeaae28e41eee53d68b91e72d5c55.jpg" type="Texture" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Tree2.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Supplies.tscn" type="PackedScene" id=5]
 [ext_resource path="res://wooden watch tower2.tscn" type="PackedScene" id=6]
+[ext_resource path="res://table.tscn" type="PackedScene" id=7]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 20, 20 )
@@ -35,6 +36,7 @@ transform = Transform( 1, 0, 0, 0, 0.184294, 0.982871, 0, -0.982871, 0.184294, 0
 shadow_enabled = true
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 0.898436, 0, 0, 0, 1, 80.8291, 16.5641, -161.099 )
 
 [node name="Cottage_FREE2" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1.91199, 0, 0, 0, 1.80232, 0, 0, 0, 2.20751, -1.43134, -1.09192, 13.3594 )
@@ -47,3 +49,6 @@ transform = Transform( -0.0668332, 0, 0.00183875, 0, 0.059606, 0, -0.00150265, 0
 
 [node name="wooden watch tower2" parent="." instance=ExtResource( 6 )]
 transform = Transform( 1.51412, 0, 3.32575, 0, 2.8721, 0, -3.63834, 0, 1.38404, 81.0551, -2.8021, -160.928 )
+
+[node name="table" parent="." instance=ExtResource( 7 )]
+transform = Transform( -0.35042, 0, -0.936593, 0, 1, 0, 0.936593, 0, -0.35042, 79.844, 16.4114, -165.163 )
