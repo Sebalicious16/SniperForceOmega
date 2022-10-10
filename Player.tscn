@@ -20,3 +20,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.53498, 0 )
 environment = ExtResource( 1 )
 current = true
 far = 8192.0
+
+[node name="playerScore" type="Label" parent="Camera"]
+margin_right = 40.0
+margin_bottom = 14.0

@@ -6,6 +6,7 @@
 
 [sub_resource type="SpatialMaterial" id=2]
 albedo_texture = ExtResource( 3 )
+uv1_scale = Vector3( 30, 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_texture = ExtResource( 2 )
