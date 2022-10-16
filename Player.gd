@@ -72,3 +72,8 @@ func _physics_process (delta):
 	# jump if we press the jump button and are standing on the floor
 	if Input.is_action_pressed("jump") and is_on_floor():
 		playerVelocity.y = jumpStrength
+
+	if Input.is_action_just_pressed("run"):
+		movementSpeed = 20
+	else:
+		movementSpeed = 10

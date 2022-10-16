@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Area" type="Area"]
+
+[node name="CSGCombiner" type="CSGCombiner" parent="."]
+
+[node name="CSGCylinder" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( -0.0587927, -5.22235, 0, 0.999937, -0.0112572, 0, 0, 0, 1, 0.856957, 0, 0 )
+
+[node name="CSGSphere" type="CSGSphere" parent="CSGCombiner"]
+transform = Transform( 2.38226, 0, 0, 0, 0.921394, 0, 0, 0, 0.926986, -1.82908, 0, 0 )
