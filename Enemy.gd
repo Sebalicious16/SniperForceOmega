@@ -1,26 +1,28 @@
-extends KinematicBody
+extends KinematicBody 
 
-onready var nav = get_parent()
-var path = []
-var path_node = 0
-var speed = 10
-onready var player = $"../../Player"
+export var speed = 100
+var space_state
+var target 
 
+func _ready():
+	space_state = get_world().direct_space_state
+	
+func _process(delta):
+	if target:
+		var result = space_state. intersect_ray(global_transform.origin, target.global_transform.origin)
+		if result.collider.is_in_group("Player"):
+			look_at(target.global_transform.origin, Vector3.UP) 
+			move_to_target(delta)
 
+func _on_Area_body_entered(body): 
+	if body.is_in_group("player"):
+		target = body 
+		print(body.name + "entered")
 
+func _on_Area_body_exited(body):
+	if body. is_in_group("Player"):
+		target = null
+		print(body.name + "exited")
 
-
-func _physics_process(delta):
-	if path_node < path.size():
-		var direction = (path[path_node] - global_transform.origin)
-		if direction.length() < 1:
-			path_node +=1
-		else:
-			move_and_slide(direction.normalized() * speed, Vector3.UP)
-			
-func move_to(target_pos):
-	path = nav.get_simple_path(global_transform.origin, target_pos)
-	path_node = 0
-
-func _on_Timer_timeout():
-	move_to(player.global_transform.origin)
+func move_to_target(delta):
+	var direction = (target.transform.origin - transform .origin).normalized()

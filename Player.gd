@@ -25,8 +25,9 @@ onready var camera = get_node("Camera")		# "attach" the camera to access from sc
 # called when an input is detected
 func _input (event):
 	# did the mouse move?
-	if event is InputEventMouseMotion:
-		mouseDelta = event.relative
+	if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
+		if event is InputEventMouseMotion:
+			mouseDelta = event.relative
 		
 		# called every frame
 func _process (delta):
@@ -72,8 +73,17 @@ func _physics_process (delta):
 	# jump if we press the jump button and are standing on the floor
 	if Input.is_action_pressed("jump") and is_on_floor():
 		playerVelocity.y = jumpStrength
-
-	if Input.is_action_just_pressed("run"):
-		movementSpeed = 20
+	if Input.is_action_just_pressed("shoot"):
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_VISIBLE:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+		else:
+			shoot()
+	if Input.is_action_just_pressed("ui_cancel"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	if Input.is_action_pressed("run"):
+		movementSpeed = 30
 	else:
 		movementSpeed = 10
+		
+func shoot():
+	pass

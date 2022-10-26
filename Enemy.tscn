@@ -22,4 +22,7 @@ material/0 = SubResource( 2 )
 wait_time = 2.0
 autostart = true
 
+[node name="CollisionPolygon" type="CollisionPolygon" parent="."]
+transform = Transform( 1.91713, 0, 0, 0, 2.66508, 0, 0, 0, 19.2651, 0, 0, 2.41821 )
+
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
