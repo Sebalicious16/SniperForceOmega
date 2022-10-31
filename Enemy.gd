@@ -28,3 +28,13 @@ func move_to_target(delta):
 	var direction = (target.transform.origin - transform.origin).normalized()
 	move_and_slide(direction * speed * delta, Vector3.UP)
 	print ("move")
+
+
+func take_damage(damage):
+	print("ouch")
+	health -= 50
+	if health <=0:
+		queue_free()
+	
+var health = 100
+

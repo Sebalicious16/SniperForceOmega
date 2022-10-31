@@ -43,6 +43,8 @@ func _process (delta):
 	mouseDelta = Vector2()
 	$Camera/playerScore.text = str(Global.current_score)
 	# called every physics step
+	
+	
 func _physics_process (delta):
 	# reset the x and z velocity
 	playerVelocity.x = 0
@@ -85,5 +87,16 @@ func _physics_process (delta):
 	else:
 		movementSpeed = 10
 		
-func shoot():
-	pass
+
+
+onready var bulletScene = preload("res://Bullet.tscn")
+onready var bulletSpawn = get_node("Camera/bulletSpawn")
+var ammo : int = 15
+
+func shoot ():
+	var bullet = bulletScene.instance()
+	get_node("/root/SniperForceOmega").add_child(bullet)
+	bullet.global_transform = bulletSpawn.global_transform
+	bullet.scale = Vector3(0.1,0.1,0.1)
+
+	ammo -= 1

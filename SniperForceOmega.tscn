@@ -56,7 +56,77 @@ material/0 = SubResource( 3 )
 shape = SubResource( 2 )
 
 [node name="Tree2" parent="Navigation/NavigationMeshInstance" instance=ExtResource( 4 )]
-transform = Transform( -0.626331, 0, 0.779555, 0, 1, 0, -0.779555, 0, -0.62633, 13.7003, -0.823223, 7.46867 )
+unique_name_in_owner = true
+transform = Transform( 0.294439, 0, -1.40922, 0, 1.48351, 0, 1.3422, 0, 0.119857, 71.6492, -0.823223, 87.5582 )
+
+[node name="Tree2" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 0.302766, 0, -1.02253, 0, 1, 0, 0.96523, 0, 0.0430181, -1.46317, -0.0237134, 2.53099 )
+
+[node name="Tree3" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 0.0902013, 0, -1.03727, 0, 1, 0, 0.979142, 0, -0.17329, -2.16968, -0.0237128, 5.98475 )
+
+[node name="Tree4" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( -0.113985, 0, 1.038, 0, 1, 0, -0.979832, 0, 0.149692, -5.75417, -0.0237128, 4.62666 )
+
+[node name="Tree5" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( -0.229567, 0, 1.03313, 0, 1, 0, -0.975238, 0, 0.0328731, -2.58717, -0.0237147, 15.3521 )
+
+[node name="Tree6" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 3.68854, -0.0237128, 15.5527 )
+
+[node name="Tree7" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 4.27848, -0.0237141, 12.0501 )
+
+[node name="Tree8" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 6.09392, -0.0237138, 8.91418 )
+
+[node name="Tree9" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, -0.999229, -0.0237134, 11.4574 )
+
+[node name="Tree10" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, -5.50742, -0.0237128, 8.97567 )
+
+[node name="Tree11" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, -6.82787, -0.0237134, 15.4711 )
+
+[node name="Tree12" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 1.72832, -0.0237141, -4.81866 )
+
+[node name="Tree13" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 0.382763, 0, 0.900764, 0, 1, 0, -0.85029, 0, 0.611579, -4.60059, -0.023714, -4.00568 )
+
+[node name="Tree14" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 10.0323, -0.023715, -0.930843 )
+
+[node name="Tree15" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 6.32352, -0.0237128, -4.6893 )
+
+[node name="Tree16" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 0.353228, 0, 0.916549, 0, 1, 0, -0.86519, 0, 0.586054, 6.93401, -0.0237147, -11.2793 )
+
+[node name="Tree17" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 15.8298, -0.0237141, -4.31956 )
+
+[node name="Tree18" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 0.259773, 0, 0.95958, 0, 1, 0, -0.90581, 0, 0.50353, 0.345779, -0.0237128, -16.6621 )
+
+[node name="Tree19" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 13.3984, -0.0237147, -9.6223 )
+
+[node name="Tree20" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, -0.592888, -0.0237147, -11.6463 )
+
+[node name="Tree21" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 10.0476, -0.0237128, -6.93633 )
+
+[node name="Tree22" parent="Navigation/NavigationMeshInstance/Tree2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, 1, 13.547, -0.0237144, 1.79332 )
+
+[node name="Tree3" parent="Navigation/NavigationMeshInstance" instance=ExtResource( 4 )]
+transform = Transform( 0.822224, 0, -1.23408, 0, 1.48351, 0, 1.10097, 0, 0.690876, 68.8676, -0.823223, 91.7872 )
+
+[node name="Tree4" parent="Navigation/NavigationMeshInstance" instance=ExtResource( 4 )]
+transform = Transform( 0.756782, 0, 1.06853, 0, 1.48351, 0, -1.14694, 0, 0.926558, 73.502, -0.823223, 92.3483 )
 
 [node name="wooden watch tower2" parent="Navigation/NavigationMeshInstance" instance=ExtResource( 6 )]
 transform = Transform( 1.51412, 0, 3.32574, 0, 2.87211, 0, -3.63833, 0, 1.38404, 81.0549, -2.80211, -160.928 )
@@ -74,4 +144,4 @@ transform = Transform( 1.91199, 0, 1.93254e-07, 0, 1.80232, 0, -1.63822e-07, 0, 
 transform = Transform( -1.12389e-07, -2.57115, 3.06418, 4.00001, -1.74846e-07, 2.52617e-15, 1.33939e-07, 3.06418, 2.57115, 79.2502, 17.0306, -166.792 )
 
 [node name="Enemy" parent="Navigation" instance=ExtResource( 8 )]
-transform = Transform( -0.999653, 0, 0.026334, 0, 1, 0, -0.026334, 0, -0.999653, 101.987, 2.41987, -137.137 )
+transform = Transform( 0.743495, -0.00024085, 0.0985692, 0, 0.749998, 0.00183259, -0.0985695, -0.0018167, 0.743492, 3.29876, 0.941092, -8.06888 )

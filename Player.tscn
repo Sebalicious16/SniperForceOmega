@@ -24,3 +24,6 @@ far = 8192.0
 [node name="playerScore" type="Label" parent="Camera"]
 margin_right = 40.0
 margin_bottom = 14.0
+
+[node name="bulletSpawn" type="Spatial" parent="Camera"]
+transform = Transform( -0.999408, 0, 0.0344111, 0, 1, 0, -0.0344111, 0, -0.999408, -0.123065, 0.025442, -1.26302 )

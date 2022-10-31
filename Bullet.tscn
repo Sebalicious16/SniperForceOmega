@@ -1,11 +1,30 @@
-[gd_scene format=2]
+[gd_scene load_steps=4 format=2]
 
-[node name="Area" type="Area"]
+[ext_resource path="res://Bullet.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[sub_resource type="CapsuleShape" id=2]
+
+[node name="Bullet" type="Area"]
+script = ExtResource( 1 )
 
 [node name="CSGCombiner" type="CSGCombiner" parent="."]
 
 [node name="CSGCylinder" type="CSGCylinder" parent="CSGCombiner"]
-transform = Transform( -0.0587927, -5.22235, 0, 0.999937, -0.0112572, 0, 0, 0, 1, 0.856957, 0, 0 )
+transform = Transform( 0.00242097, 0.215046, 0.999152, 1.00135, 0.164663, -0.00138825, 0.0249982, 5.21533, -0.0411547, -0.541364, -0.0452393, -1.34112 )
+material_override = SubResource( 1 )
 
 [node name="CSGSphere" type="CSGSphere" parent="CSGCombiner"]
-transform = Transform( 2.38226, 0, 0, 0, 0.921394, 0, 0, 0, 0.926986, -1.82908, 0, 0 )
+transform = Transform( -0.0980969, 0, 0.9262, -0.0802459, 0.92087, -0.00128689, -2.37889, -0.0310633, -0.0381498, -0.430759, 0.0452393, 1.34112 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( -0.191388, 0, 0.999152, -0.156561, 1.32078, -0.00138825, -4.64124, -0.0445533, -0.0411547, -0.506077, -0.0163729, -0.485373 )
+shape = SubResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_Bullet_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="destroy"]
