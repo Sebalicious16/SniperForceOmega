@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Textures/34ceeaae28e41eee53d68b91e72d5c55.jpg" type="Texture" id=1]
+[ext_resource path="res://uploads_files_2708212_terrain.fbx" type="PackedScene" id=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 1 )
+uv1_scale = Vector3( 5, 5, 1 )
+
+[node name="uploads_files_2708212_terrain" instance=ExtResource( 2 )]
+
+[node name="Landscape003" parent="RootNode" index="2"]
+material/0 = SubResource( 1 )
