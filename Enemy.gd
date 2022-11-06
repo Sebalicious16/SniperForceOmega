@@ -1,6 +1,6 @@
 extends KinematicBody 
 
-export var speed = 100
+export var speed = 500
 var space_state
 var target 
 
